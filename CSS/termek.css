@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    background-color:lightsteelblue;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+.div_termek_menu {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    background-color: orange;   
+    width: 15%;
+    align-content:flex-start;
+    /*margin: 3.3% 0% 0% 0%;*/
+    overflow: scroll;
+    height: 40vw;
+}
+
+.div_termek_menu p {
+    font-size: larger;
+    margin: 20px 0 0 2px;
+}
+
+.div_termek_menu ul {
+    list-style: none;
+    margin: 0;
+}
+
+.div_termek_menu img {
+    width: 40px;
+    height: 40px;
+}
+
+.div_termek_menu .img_ital {
+    width: 40px;
+    height: 80px;
+}
+
+.div_termek_menu ul li {
+    margin: 15px 5px 0 0;
+    
+}
+
+.div_termek_menu ul li:first-child {
+    margin: 5px 5px 0 0;
+}
+
+.div_termek_menu ul li a {
+    /*list-style: none;*/
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: none;    
+}
+
+
+
+.main {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    align-content:center;
+    background-color: goldenrod;
+    width: 85%;
+    /*padding-left: 5%;
+    margin-top: 3.3%;*/
+    margin-left: 15%;    
+}
+
+.h1_fotermek {
+    width: 100%;
+    margin: 0;
+    padding: 5vw 0 2vw 0;
+    text-align: center;
+}
+
+
+/*
+.main ul li {
+    list-style: none;
+    margin: 0;
+    border: 0 3px 3px 3px solid darkolivegreen;
+}
+
+.main ul li:first-child {
+    border-top: 3px solid darkolivegreen;
+}
+*/
+
+.div_termekbox {
+    /*display:inline;*/
+    width: 30%;
+    margin: 0.5vw 1vw;
+    border: 3px solid darkolivegreen;
+    padding: 0 1vw;
+    align-items: center;
+    text-align: center;
+}
+
+.h2_termek {
+    /*display: block;*/
+    margin: 1em 0;
+    text-align: center;
+    /*border-bottom: 2px dashed darkolivegreen;*/
+}
+
+/*
+.div_termek {
+    /*display: flex;*/
+    /*text-align: center;
+    /*flex-wrap: wrap;*/
+    /*margin: 0;
+    padding-bottom: 10px;
+}
+*/
+
+.p_termek {
+    margin: 0;
+    text-align: center;
+    
+}
+
+.img_termek {
+    width: 80px;
+    height: 80px;
+    margin: 15px 20px;
+    border-radius: 5px;
+}
+
+.btn_termek {
+    width: 100px;
+    height: 40px;
+    margin: 15px 20px 10px 20px;
+    
+}
+
+
+
+
+

@@ -1,65 +1,126 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/rolunk.css">
+    <link rel="stylesheet" href="/CSS/menu.css">
     <title>Rólunk</title>
 </head>
 
+
 <body>
-    <ul>
-        <li>
-            <a href="/">Home</a>
-        </li>
-        <li>
-            <a href="/oldalak/termekek.html">Termékek</a>
-        </li>
-        <li>
-            <a href="/oldalak/rendeles.html">Rendelések</a>
-        </li>
-        <li>
-            <a href="/rolunk.html">Rólunk</a>
-        </li>
-    </ul>
 
-    <h1 style="color: red;">
-        Rólunk
-    </h1>
+    <header class="nav nav_rolunk">
+        <ul>
+            <li>
+                <a class="icon-home" href="/">Főoldal</a>
+            </li>
+            <li>
+                <a class="icon-cubes" href="/termekek.html">Termékek</a>
+            </li>
+            <li>
+                <a class="icon-cart-arrow-down" href="/rendeles.html">Rendelések</a>
+            </li>
+            <li>
+                <a class="icon-info" href="/rolunk.html">Rólunk</a>
+            </li>
+        </ul>
+    </header>
 
-    <table>
-        <caption>Nyitvatartás:</caption>
-        <thead>
-            <tr>
-                <th>Napok</th>
-                <th>Nyitás</th>
-                <th>Zárás</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Hétfő - Péntek</td>
-                <td>09:00</td>
-                <td rowspan="2">21:00</td>
-            </tr>
-            <tr>
-                <td>Szombat</td>
-                <td>10:00</td>
-            </tr>
-            <tr>
-                <td>Vasárnap</td>
-                <td colspan="2">Zárva.</td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr>
-                <td colspan="3">
-                    &copy; 2019
-                </td>
-            </tr>
-        </tfoot>
-    </table>
+    <div class="wrapper">
+        <h1 class="h1_rolunk">
+            Rólunk:
+        </h1>
+
+        <h3>
+            Tele pocak szendvics és hamburger bár.
+        </h3>
+
+        <p class="p_rolunk">
+            Ez az oldal azért jött létre, mert úgy gondoltam, hogy megpróbálom valamilyen szinten elsajátítani a honlapépítés rejtelmeit. Kizárólag tanulási, gyakorlási céllal készült! A honlap készítéséhez nem használtam
+            honlap építő programokat, keretrendszereket (bootstrapot sem). Kizárólag HTML kódokat és CSS-t. JavaScriptet
+            még ne keress benne, annak ezután fogok nekiugrani. Ez életem első honlapja, mely egyben -ezen a
+            téren- az "állatorvosi lovam" is.
+            <br>
+            Egy nem létező ételbár, nem létező kínálatát mutatja be. Ha esetleg valamelyik fiktív termék azonos lenne
+            egy
+            létező ételbár ajánlatával, az csak a <b>VÉLETLEN</b> (és az ördög) műve!
+        </p>
+
+        <p class="p_rolunk">
+            Mottónk:
+            <br>
+            <q>
+                Ha ma nem eszel nálam, holnap mindketten éhen halunk...
+            </q>
+            <sub class="sub_motto">
+                (&copy; Egy balatonfenyvesi étterem mottója, sajnos már bezárt.)
+            </sub>
+        </p>
+        <!--<hr>-->
+
+        <div class="container">
+            <div class="div_table">
+                <table class="table table-bordered border-success caption-top" name="open_table">
+                    <caption>Nyitvatartás:</caption>
+                    <thead>
+                        <tr>
+                            <th class="open_head">Napok</th>
+                            <th class="open_head">Nyitás</th>
+                            <th class="open_head">Zárás</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="open_body">Hétfő - Péntek: </td>
+                            <td class="open_body">09:00</td>
+                            <td rowspan="2" class="open_body align-middle">21:00</td>
+                        </tr>
+                        <tr>
+                            <td class="open_body">Szombat: </td>
+                            <td class="open_body">10:00</td>
+                        </tr>
+                        <tr>
+                            <td class="open_body">Vasárnap: </td>
+                            <td colspan="2" class="open_body">Zárva.</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3">
+                                &copy; 2021
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+
+            <div class="p_terkep">
+                <shape class="shape_terkep">
+                    Ahol megtalálhat minket (vagy nem...):
+                </shape>
+                <br>
+                <cite class="cite_terkep">
+                    Csendes-óceán, a Pitcairn-szigetektől dél-nyugatra, kb: 840 km, 524 mi (mérföld) távolságra.
+                </cite>
+
+                <iframe class="terkep_iframe"
+                    src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d1507230.453258157!2d-137.55010352230516!3d-28.66573116022758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e6!4m0!4m3!3m2!1d-28.951079!2d-136.9542291!5e0!3m2!1shu!2shu!4v1631864711833!5m2!1shu!2shu"
+                    width="" height="" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+        </div>
+        <footer>
+            <div class="div_footer">
+                <cite class="icon-tools cite_footer">Készítette: Baba Próba</cite>
+                <cite class="icon-mail cite_footer">E-mail: baba.proba@jlk.klj</cite>
+                <cite class="icon-phone cite_footer">Telefon: 123-4567-890123</cite>
+            </div>
+        </footer>
+    </div>
 </body>
 
 </html>

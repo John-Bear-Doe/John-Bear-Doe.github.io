@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    /*background: rgba(216, 174, 120, 0.945);*/
+    /*background: #FFF5EE;*/
+    /*background: rgba(250,240,230,1);*/
+    background: navy;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: 100%;
+    width: 90%;
+    margin: 0 auto;
+    background: #F0E68C;
+    color:darkolivegreen;
+}
+
+.h1_rolunk {
+    margin: 0 3vw;
+    padding-top: 2vw;
+    font-size: 50px;
+}
+
+h3 {
+    margin-left: 5vw;
+    font-size: 30px;
+}
+
+.p_rolunk {
+   margin: 0 5vw 3vw 5vw;
+   font-size: 25px;
+}
+
+
+.sub_motto {
+    font-style: italic;
+    font-size: 0.7em;
+}
+
+hr {
+    height: 3px;
+    background: darkolivegreen;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7vw 0;
+    width: 100%;
+    text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+        flex-wrap: wrap;
+    }
+    .table, .terkep_iframe {
+        max-width: 300px;
+        margin: 3em auto;
+    }
+    
+}
+
+@media screen and (max-width: 350px) {
+    .table, .terkep_iframe {
+        display: none;
+    }
+}
+
+.div_table {  
+    margin: 0 auto;
+}
+
+.table {
+    font-size: 1.5em;
+    border: 2px solid ;
+    border-radius: 5px;
+    width: 400px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.table caption {
+    font-weight: bold;
+    margin-bottom: 1.5vw;
+    
+}
+
+table th {
+    background: lightsteelblue;
+}
+
+.table td {
+    background: lightgrey;
+}
+
+.table tfoot td {
+    font-size: 0.7em;
+    text-align: left;
+    padding-left: 1vw;
+}
+
+.p_terkep {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.shape_terkep {
+    font-size: x-large;
+        
+}
+
+.terkep_iframe {
+    border: solid 3px;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 1.5em;
+    width: 400px;
+    height: 300px;
+}
+

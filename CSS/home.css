@@ -1,0 +1,97 @@
+body {
+    /*background-color:rgb(10, 110, 72);*/
+    background: url(/Img/hatter_fapadlo_002.jpeg);
+    background-size: auto;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: 100%;
+    /*background-color: orange;*/
+    /*background-color: lemonchiffon;*/
+    margin:0 10%;
+    /*color: darkolivegreen;*/
+    color: #d0bd0f;
+    font-size: 1.3em;
+}
+
+.h1_home {
+    /*display: inline-block;*/
+    font-size: 2.5em;
+    margin: 0 20px;
+    padding-top: 4vw;
+    
+}
+
+.h4_home {
+    margin: 30px 20px 0 20px;
+    /*padding-left: 15px;*/
+    font-size: 2em; 
+}
+
+.burger {
+    display: flex;
+    width: 100%;
+    margin: 0;
+   
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 45px;
+}
+
+.h4_menu_2 {
+    margin: 0;
+    font-size: 2em;
+    padding-top: 0.5em;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+}
+
+.img_ital {
+    width: 40px;
+    height: 80px;
+}
+
+.container a {
+    text-decoration: none;
+    color: rgba( 208, 189, 15, 1);
+    /*color: darkolivegreen;*/
+    border-bottom: 1px dashed;
+}
+
+.ul_food li {
+    list-style: none;
+    padding-top: 15px;
+}    
+
+.div_alkohol {
+    /*margin-left: 20px;
+    margin-bottom: 3%;*/
+    margin: 0.5em 0;
+    /*padding: 0.5em 0;*/
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: red ;
+}
+
+.italok {
+    display: flex;
+    width: 100%;
+}
+
+.ul_rendel {
+    margin-left: 1%;
+}
+
+
+

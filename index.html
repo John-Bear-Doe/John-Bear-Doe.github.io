@@ -1,62 +1,173 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <link rel="stylesheet" href="/CSS/menu.css">
+    <link rel="stylesheet" href="/CSS/home.css">
+    <title>Főoldal</title>
 </head>
 
 <body>
-    <ul>
-        <li>
-            <a href="/">Home</a>
-        </li>
-        <li>
-            <a href="/oldalak/termekek.html">Termékek</a>
-        </li>
-        <li>
-            <a href="/oldalak/rendeles.html">Rendelések</a>
-        </li>
-        <li>
-            <a href="/rolunk.html">Rólunk</a>
-        </li>
-    </ul>
-
-    <h1>Finom Burgerek</h1>
-    <ul>
-        <li>
-            Húsimádó
-            <ul>
-                <li>Marha</li>
-                <li>Sertés</li>
-                <li>Pulyka</li>
-            </ul>
-        </li>
-        <li>Vegetáriánus</li>
-        <li>Piedone</li>
-    </ul>
-
-    <h2>A rendelés lépései.</h2>
-    <ol>
-        <li>Válassz egy burgert.</li>
-        <li>Vásárold meg.</li>
-        <li>Add meg a szállítási címedet.</li>
-        <li>Jó étvágyat.</li>
-    </ol>
-
-    <a href="https://www.tasteofhome.com/recipes/barbecued-burgers/">
-        Barbecued Burgers
-    </a>
-
-    <a href="/rolunk.html">Rólunk</a>
-
-    <a target="blank" href="https://www.tasteofhome.com/recipes/barbecued-burgers/">
-        <img width="56" src="Img/Burger.jpg" alt="tasty burger">
-    </a>
 
 
+    <header class="nav nav_home">
+        <ul>
+            <li>
+                <a class="icon-home" href="/">Főoldal</a>
+            </li>
+            <li>
+                <a class="icon-cubes" href="/termekek.html">Termékek</a>
+            </li>
+            <li>
+                <a class="icon-cart-arrow-down" href="/rendeles.html">Rendelések</a>
+            </li>
+            <li>
+                <a class="icon-info" href="/rolunk.html">Rólunk</a>
+            </li>
+        </ul>
+    </header>
+
+    <div class="wrapper">
+        <h1 class="h1_home">Üdvözöllek kedves Éhenkórász!</h1>
+        <p class="h4_home">
+            Üzletünkben az alábbi finomságokkal csillapíthatod mardosó éhséged:
+        </p>
+
+        <div class="burger">
+            <!--<div class="food_container">-->
+            <div class="container">
+                <!--<div class="row">-->
+                <!--<div class="cell">-->
+                <h4 class="h4_menu_2">
+                    <a href="/termekek.html#marhaburger">
+                        <img src="/Ikon/burger_002.png" alt="Burger">
+                        Burgerek:
+                    </a>
+                </h4>
+                <ul class="ul_food">
+                    <li>
+                        Húsimádó
+                        <ul>
+                            <li>Marhahúsos</li>
+                            <li>Sertéshúsos</li>
+                            <li>Szárnyas</li>
+                        </ul>
+                    </li>
+                    <li>Vegetáriánus</li>
+                </ul>
+                <!--</div>-->
+                <!--</div>-->
+            </div>
+            <!--<div class="food_container">-->
+            <div class="container">
+                <!--<div class="row">-->
+                <!--<div class="cell">-->
+                <h4 class="h4_menu_2">
+                    <a href="/termekek.html#felvagottasszendvics">
+                        <img src="/Ikon/sandwich_002.png" alt="Szendvics">
+                        Szendvicsek:
+                    </a>
+                </h4>
+                <ul class="ul_food">
+                    <li>
+                        Húsimádó
+                        <ul>
+                            <li>Felvágottas</li>
+                            <li>Sertéshúsos</li>
+                            <li>Szárnyas</li>
+                        </ul>
+                    </li>
+                    <li>Vegetáriánus</li>
+                </ul>
+                <!--</div>-->
+                <!--</div>-->
+            </div>
+        </div>
+
+
+        <p class="h4_home">Italok, hogy szomjadat is olthasd:</p>
+
+        <div class="italok">
+            <!--<div class="drink_container">-->
+            <div class="container">
+                <!--<div class="cell">-->
+                <!--<ul class="ul_food">-->
+                <h4 class="h4_menu_2">
+                    <a href="/termekek.html">
+                        <img class="img_ital" src="/Ikon/Water_001.jpg" alt="Víz">
+                        Szénsavmentes italok:
+                    </a>
+                </h4>
+                <ul class="ul_food">
+                    <li>Ásványvizek</li>
+                    <li>Gyümölcslevek</li>
+                    <li>Energia italok</li>
+                    <li>Tea</li>
+                    <li>Kávé</li>
+                </ul>
+
+                <!--</ul>-->
+            </div>
+            <!--</div>
+        </div>-->
+
+            <!--<div class="drink_container">-->
+            <div class="container">
+                <!--<div class="cell">
+                <ul class="ul_food">-->
+                <h4 class="h4_menu_2">
+                    <a href="/termekek.html">
+                        <img class="img_ital" src="/Ikon/Water_002.jpg" alt="Víz">
+                        Szénsavas italok:
+                    </a>
+                </h4>
+                <ul class="ul_food">
+                    <li>Ásványvizek</li>
+                    <!-- <li>Üdítők</li> -->
+                </ul>
+
+                <!--</ul>-->
+            </div>
+
+
+
+        </div>
+
+        <div class="div_alkohol">
+            Alkoholos italokat nem árulunk!
+        </div>
+
+        <h2 class="h4_home">A rendelés lépései.</h2>
+        <ol class="ul_rendel">
+            <li>Válassz egy burgert.</li>
+            <li>Ha kérsz válassz hozzá extra húst és/vagy szószt.</li>
+            <li>Add meg a szállítási, számlázási címedet.</li>
+            <li>Átvételkor ne felejtsd el kifizetni a futárnak!</li>
+            <li>Jó étvágyat!</li>
+        </ol>
+
+        <a target="blank" href="https://www.tasteofhome.com/recipes/barbecued-burgers/">
+            Barbecued Burgers
+        </a>
+
+        <a href="/rolunk.html">Rólunk</a>
+
+        <a target="blank" href="https://www.tasteofhome.com/recipes/barbecued-burgers/">
+            <img width="56" src="Img/Burger.jpg" alt="tasty burger">
+        </a>
+
+        <footer>
+            <div class="div_footer">
+                <cite class="icon-tools cite_footer">Készítette: Baba Próba</cite>
+                <cite class="icon-mail cite_footer">E-mail: baba.proba@jlk.klj</cite>
+                <cite class="icon-phone cite_footer">Telefon: 123-4567-890123</cite>
+            </div>
+        </footer>
+
+    </div>
 </body>
-
+<!--<script type="text/javascript" src="/js/proba.js"></script>-->
 </html>

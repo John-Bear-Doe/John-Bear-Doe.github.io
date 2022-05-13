@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+/*---------- Menu ikonok ----------*/
+
+@font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.eot?32294395');
+    src: url('../font/fontello.eot?32294395#iefix') format('embedded-opentype'),
+         url('../font/fontello.woff2?32294395') format('woff2'),
+         url('../font/fontello.woff?32294395') format('woff'),
+         url('../font/fontello.ttf?32294395') format('truetype'),
+         url('../font/fontello.svg?32294395#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  [class^="icon-"]:before, [class*=" icon-"]:before {
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    display: inline-block;
+    padding-right: 10px;
+  }
+  
+  .icon-user:before { content: '\e800'; } /* '' */
+  .icon-home:before { content: '\e801'; } /* '' */
+  .icon-ok:before { content: '\e802'; } /* '' */
+  .icon-cancel:before { content: '\e803'; } /* '' */
+  .icon-plus:before { content: '\e804'; } /* '' */
+  .icon-minus:before { content: '\e805'; } /* '' */
+  .icon-phone:before { content: '\e806'; } /* '' */
+  .icon-tools:before { content: '\e807'; } /* '' */
+  .icon-list-bullet:before { content: '\f0ca'; } /* '' */
+  .icon-mail:before { content: '\f0e0'; } /* '' */
+  .icon-bell:before { content: '\f0f3'; } /* '' */
+  .icon-info:before { content: '\f129'; } /* '' */
+  .icon-cubes:before { content: '\f1b3'; } /* '' */
+  .icon-cart-arrow-down:before { content: '\f218'; } /* '' */
+
+
+/*---------- Menu ----------*/
+
+/*
+Alácsúszás ellen
+.nav::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+*/
+
+.nav {   
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;   
+    width: 100%;
+    margin: 0 auto;
+    line-height: 3rem;
+    /*background: orange;*/
+    background: rgba(65, 42, 28, 1);
+    border-bottom: 1px solid darkolivegreen;
+   
+    
+}
+
+.nav_home {
+    width: 80%;     
+}
+
+.nav_rolunk {
+    width: 90%;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+}   
+
+.nav ul li {
+    margin: 0 auto;
+}
+
+.nav a {
+    display: block;
+    text-decoration: none;
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+    padding: 0 30px;
+    border-radius: 5px;
+    /*background: rgba( 211, 211, 211, 0.4);*/
+    color: rgba( 208, 189, 15, 0.8);
+    /*color: rgba(0, 0, 0, 0.6);*/
+}
+
+
+
+
+.nav a:hover {
+    background: rgba( 128, 128, 128, 0.4);
+}
+
+@media screen and (max-width: 800px) {
+    .nav {
+        line-height: 1.5rem;
+    }
+    .nav ul {
+        flex-wrap: wrap;
+        padding: 0%;
+    }
+    .nav a {
+        font-size: 1em;
+        margin: 10px auto;
+    }
+}
+
+/*---------- FOOTER ----------*/
+
+footer { 
+    /*position: -webkit-sticky; /* Safari */
+    /*position: sticky;*/
+    bottom: 0; 
+    border-top: 1px solid ; 
+    /*background: orange; */
+    
+}
+
+.div_footer {
+    display: flex;
+    line-height: 3rem;
+   
+}
+
+.cite_footer {
+    display: block;
+    margin: 0 auto;
+    color: rgba( 208, 189, 15, 1);
+}
+
+@media screen and (max-width: 800px) {
+    .div_footer {
+        flex-wrap: wrap;
+    }
+}
+
+
+
+
+
+
